@@ -27,10 +27,10 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
     - Logistic Regression
     - K Nearest Neighbor
     - Comparison and Conclusion
-    - Dependencies:
-        - scikit-learn==1.0.2
-        - imblearn==0.0
 
+- Dependencies:
+    - scikit-learn==1.0.2
+    - imblearn==0.0
   
 ## Contributors
 
