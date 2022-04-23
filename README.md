@@ -5,8 +5,7 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 1. [Data Cleaning & Visualization](https://github.com/marcusverykho/predictingDiabetes/blob/main/Data%20Cleaning.ipynb)
 2. [Data Analysis](https://github.com/marcusverykho/predictingDiabetes/tree/main/Data%20Analysis)
-3. [Models Comparison](https://github.com/nicklimmm/movie-analysis/blob/main/logistic-regression.ipynb)
-4. [Datasets](https://github.com/marcusverykho/predictingDiabetes/tree/main/Datasets)
+3. [Models Comparison](https://github.com/marcusverykho/predictingDiabetes/blob/main/Regression%20Models.ipynb)
 
 ## File Descriptions
 1. Data Cleaning.ipynb:
@@ -28,6 +27,9 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
     - Logistic Regression
     - K Nearest Neighbor
     - Comparison and Conclusion
+    - Dependencies:
+        - scikit-learn==1.0.2
+        - imblearn==0.0
 
   
 ## Contributors
