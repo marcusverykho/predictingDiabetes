@@ -3,11 +3,12 @@
 ## About
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on diabetes detection from [](https://). For detailed walkthrough, please view the source code in order from:
 
-1. [Data Cleaning & Visualization](https://github.com/nicklimmm/movie-analysis/blob/main/data-extraction.ipynb)
-2. [Data Analysis](https://github.com/nicklimmm/movie-analysis/blob/main/data-extraction.ipynb)
+1. [Data Cleaning & Visualization](https://github.com/marcusverykho/predictingDiabetes/blob/main/Data%20Cleaning.ipynb)
+2. [Data Analysis](https://github.com/marcusverykho/predictingDiabetes/tree/main/Data%20Analysis)
 3. [Models Comparison](https://github.com/nicklimmm/movie-analysis/blob/main/logistic-regression.ipynb)
+4. [Datasets](https://github.com/marcusverykho/predictingDiabetes/tree/main/Datasets)
 
-## File Description
+## File Descriptions
 1. Data Cleaning.ipynb:
     - Raw Data Description
     - Data cleaning and Resampling
@@ -16,7 +17,14 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
     - Correlation of different columns
     - Checking correlation of different columns
 
-3. Model Comparison.ipynb:
+3. Correlation.R:
+    - Correlation between different columns
+
+4. Datasets:
+    - Cleaned_Diabetes.csv: Sanitized data
+    - Uncleaned_Diabetes.csv: Raw data
+
+5. Regression Models.ipynb:
     - Logistic Regression
     - K Nearest Neighbor
     - Comparison and Conclusion
