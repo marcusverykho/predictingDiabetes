@@ -4,19 +4,34 @@
 This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on diabetes detection from [](https://). For detailed walkthrough, please view the source code in order from:
 
 1. [Data Cleaning & Visualization](https://github.com/nicklimmm/movie-analysis/blob/main/data-extraction.ipynb)
-3. [Logistic Regression](https://github.com/nicklimmm/movie-analysis/blob/main/logistic-regression.ipynb)
-4. [k Nearest Neighbour](https://github.com/nicklimmm/movie-analysis/blob/main/neural-network.ipynb)
+2. [Data Analysis](https://github.com/nicklimmm/movie-analysis/blob/main/data-extraction.ipynb)
+3. [Models Comparison](https://github.com/nicklimmm/movie-analysis/blob/main/logistic-regression.ipynb)
+
+## File Description
+1. Data Cleaning.ipynb:
+    - Raw Data Description
+    - Data cleaning and Resampling
+
+2. Data Analysis.ipynb:
+    - Correlation of different columns
+    - Checking correlation of different columns
+
+3. Model Comparison.ipynb:
+    - Logistic Regression
+    - K Nearest Neighbor
+    - Comparison and Conclusion
+
   
 ## Contributors
 
-- @mmarcuskho - Neural Networks, Data Resampling, Data Extraction
-- @pangsongchen - Logistic Regression
-- @nicholaspng - Data Visualization, Data Extraction
+- @marcuskho - Data Extraction, Data Analysis, Data Cleaning
+- @pangsongchen - Logistic Regression, K Nearest Neighbour, Data Correlation
+- @nicholaspng - Data Resampling, Data Cleaning, Data Analysis
 
 ## Problem Definition
 
 - Are we able to predict the likelihood of getting diabetes based on your current physical health?
-- while model would be the best to predict it?
+- Which model would be the best to predict it?
 
 ## Models Used
 
@@ -25,10 +40,9 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 
 ## Conclusion
 
-- Blood pressure and High Cholesterol have the highest tetrachoric correlation value with getting diabetes
-- While Gender and Smoking have low tetrachoric correlation value.
+- It is possible to spot risk category of getting diabetes with ~75% accuracy.
+- Both models performed well in predicting the likelihood of Diabetes
 - Logistic Regression did better with a better Accuracy, Precision, Recall and F1 scores compared to kNN.
-- Yes, it is possible to spot risk category of getting diabetes with ~75% accuracy.
 
 ## What did we learn from this project?
 
@@ -40,4 +54,18 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - Concepts about Precision, Recall, and F1 Score
 
 ## References
+https://towardsdatascience.com/oversampling-and-undersampling-5e2bbaf56dcf
+
+https://www.globaltechcouncil.org/machine-learning/logistic-regression-vs-k-nearest-neighbours-vs-support-vector-machine/
+
+https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc
+
+https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761
+
+https://medium.com/analytics-vidhya/confusion-matrix-accuracy-precision-recall-f1-score-ade299cf63cd
+
+https://www.researchgate.net/figure/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix_fig3_336402347
+
+https://www.kaggle.com/alexteboul/diabetes-health-indicators-dataset?select=diabetes_012_health_indicators_BRFSS2015.csv
+
 
